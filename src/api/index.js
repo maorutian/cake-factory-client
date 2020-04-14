@@ -14,7 +14,7 @@ instance.defaults.headers.common.accept = 'application/json';
 export const reqLogin = (username, password) => instance.post(API + '/login', {username, password});
 
 //weather request
-export const reqWeather = (city) => instance.get(`http://api.openweathermap.org/data/2.5/weather?q=${city}&appid=c7dbdc5297ee2fbbeaa2daed2a14e793`);
+export const reqWeather = (city) => instance.get(`https://cors-anywhere.herokuapp.com/http://api.openweathermap.org/data/2.5/weather?q=${city}&appid=c7dbdc5297ee2fbbeaa2daed2a14e793`);
 
 //--------------------------CATEGORY------------------------------
 //get all categories
