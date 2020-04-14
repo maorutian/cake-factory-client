@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3f4e0b1f2034dadb8bceebaf0b62c638",
+    "revision": "b8b82721ffea203219a0f547517e6e80",
     "url": "/cake-factory-client/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/cake-factory-client/static/css/2.be936caf.chunk.css"
   },
   {
-    "revision": "51de52628494bcfd7392",
+    "revision": "3f53a30d2f13490ffda6",
     "url": "/cake-factory-client/static/css/main.6e5ff2d6.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/cake-factory-client/static/js/2.279fe6f7.chunk.js"
   },
   {
-    "revision": "51de52628494bcfd7392",
-    "url": "/cake-factory-client/static/js/main.616896b6.chunk.js"
+    "revision": "3f53a30d2f13490ffda6",
+    "url": "/cake-factory-client/static/js/main.470a232c.chunk.js"
   },
   {
     "revision": "e67403559e4d36a2d2d6",
