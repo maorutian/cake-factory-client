@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/cake-factory-client/static/css/main.6e5ff2d6.chunk.css",
+    "main.js": "/cake-factory-client/static/js/main.616896b6.chunk.js",
+    "main.js.map": "/cake-factory-client/static/js/main.616896b6.chunk.js.map",
+    "runtime-main.js": "/cake-factory-client/static/js/runtime-main.7a950995.js",
+    "runtime-main.js.map": "/cake-factory-client/static/js/runtime-main.7a950995.js.map",
+    "static/css/2.be936caf.chunk.css": "/cake-factory-client/static/css/2.be936caf.chunk.css",
+    "static/js/2.279fe6f7.chunk.js": "/cake-factory-client/static/js/2.279fe6f7.chunk.js",
+    "static/js/2.279fe6f7.chunk.js.map": "/cake-factory-client/static/js/2.279fe6f7.chunk.js.map",
+    "index.html": "/cake-factory-client/index.html",
+    "precache-manifest.68c2316774d001e1bf40e71754ca94fd.js": "/cake-factory-client/precache-manifest.68c2316774d001e1bf40e71754ca94fd.js",
+    "service-worker.js": "/cake-factory-client/service-worker.js",
+    "static/css/2.be936caf.chunk.css.map": "/cake-factory-client/static/css/2.be936caf.chunk.css.map",
+    "static/css/main.6e5ff2d6.chunk.css.map": "/cake-factory-client/static/css/main.6e5ff2d6.chunk.css.map",
+    "static/media/login.less": "/cake-factory-client/static/media/bg.db15b81a.jpg",
+    "static/media/logo.png": "/cake-factory-client/static/media/logo.09f15b0c.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7a950995.js",
+    "static/css/2.be936caf.chunk.css",
+    "static/js/2.279fe6f7.chunk.js",
+    "static/css/main.6e5ff2d6.chunk.css",
+    "static/js/main.616896b6.chunk.js"
+  ]
+}
