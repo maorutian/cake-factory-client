@@ -10,6 +10,19 @@ import logo from '../../../assets/images/logo.png'
 
 class Login extends Component {
 
+  state = {
+    loading: false,
+    iconLoading: false,
+  };
+
+  enterLoading = () => {
+    this.setState({loading: true});
+  };
+
+  enterIconLoading = () => {
+    this.setState({iconLoading: true});
+  };
+
 
   handleSubmit = e => {
     //block submitting
@@ -24,13 +37,17 @@ class Login extends Component {
             let decodeddata = decode(response.data.token);
             //console.log(decodeddata);
             sessionStorage.setItem('token', response.data.token);
+            this.setState({loading:false});
+            this.setState({iconLoading:false});
             this.props.history.replace('/');
           })
           .catch(error => {
-            if(error.response){
+            this.setState({loading:false});
+            this.setState({iconLoading:false});
+            if (error.response) {
               let errorMsg = error.response.data.errors[0].msg;
               message.error(`Error ${error.response.status} : ${errorMsg}`);
-            }else {
+            } else {
               message.error('Response Error ' + error.message);
             }
           });
@@ -121,7 +138,12 @@ class Login extends Component {
 
             </Form.Item>
             <Form.Item>
-              <Button type="primary" htmlType="submit" className="login-form-button">
+              <Button
+                type="primary"
+                htmlType="submit"
+                className="login-form-button"
+                loading={this.state.loading}
+                onClick={this.enterLoading}>
                 Log in
               </Button>
             </Form.Item>
