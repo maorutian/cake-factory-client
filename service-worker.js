@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/cake-factory-client/precache-manifest.379b70222060703e71963115aba126ea.js"
+  "/cake-factory-client/precache-manifest.a00adebfdb08b6af55dee3aa04eccf24.js"
 );
 
 self.addEventListener('message', (event) => {
