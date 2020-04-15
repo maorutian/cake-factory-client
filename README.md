@@ -1,5 +1,4 @@
 # project-client-cakefactorye
-# project-client-cakefactorye
 
 A admin to manage products
 
@@ -54,8 +53,3 @@ More Server and & API detail:
 https://github.com/maorutian/cake-factory-server
 
 
-Server & API detail:
-https://github.com/maorutian/cake-factory-server
-
-:
-1.
